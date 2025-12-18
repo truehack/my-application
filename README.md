@@ -14,5 +14,6 @@ Pipeline включает:
 
 ## Запуск локально
 docker build -t my-application .
-docker run -p 8000:8000 my-application
+docker run -d -p 8000:8000 my-application
+
 
